@@ -1,0 +1,30 @@
+.head-panel {
+    width: 100%;
+    height: auto;
+	padding: 25rem 0 5rem 0;
+	margin-bottom: 0;    
+}
+
+.head-panel * {
+	color: var(--main-text-color);
+	font-family: 'Marck Script', cursive;
+}
+
+.site-post {
+	margin-bottom: 4rem;
+	padding-top: 1.5rem;
+}
+.site-post-title {
+	margin-bottom: .25rem;
+	font-size: 1.3rem;
+}
+
+.site-post-title i {
+	background-color: var(--main-bg-color);
+	padding: 0.5rem 0.5rem;
+}
+
+.site-post-meta {
+	margin-bottom: 1.25rem;
+	color: #999;
+}

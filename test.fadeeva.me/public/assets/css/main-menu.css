@@ -1,0 +1,28 @@
+.main-menu-container {
+	z-index: 1050;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	border: 1px solid var(--main-border-color);
+}
+
+.nav-item {
+	border-bottom: none;
+}
+
+.nav-item:hover {
+	border-bottom: solid 2px rgb(52, 57, 66);
+}
+
+.navbar-nav > .active {
+	border-bottom: solid 2px rgb(247, 129, 102);
+}
+
+/* Small devices (landscape phones, 34em and up)*/
+@media (min-width: 34em) {
+	.nav-link {
+		font-size: 1rem;
+		margin-top: .2rem;
+	}
+}

@@ -1,0 +1,84 @@
+/* Extra small devices (portrait phones, less than ???px)
+** No media query since this is the default in Bootstrap*/
+
+@media print {
+	.container {
+		width: auto;
+	}
+}
+
+/* Small devices (landscape phones, 34em and up)*/
+@media (min-width: 34em) {
+	h1 {
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+	}
+	
+	h2 {
+		font-size: 1.2rem;
+		line-height: 1.2rem;
+	}
+
+	h3 {
+		font-size: 1.0rem;
+		line-height: 1.0rem;
+	}
+}
+
+/* Medium devices (tablets, 48em and up)*/
+@media (min-width: 48em) {
+	html {
+		font-size: 18px;
+	}
+
+	h1 {
+		font-size: 1.7rem;
+		line-height: 1.7rem;
+	}
+	
+	h2 {
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+	}
+
+	h3 {
+		font-size: 1.2rem;
+		line-height: 1.2rem;
+	}
+}
+
+/* Large devices (desktops, 62em and up)*/
+@media (min-width: 62em) {
+	h1 {
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+	
+	h2 {
+		font-size: 1.7rem;
+		line-height: 1.7rem;
+	}
+
+	h3 {
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+	}
+}
+
+/* Extra large devices (large desktops, 75em and up)*/
+@media (min-width: 75em) {
+	h1 {
+		font-size: 2.5rem;
+		line-height: 2.5rem;
+	}
+	
+	h2 {
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+
+	h3 {
+		font-size: 1.7rem;
+		line-height: 1.7rem;
+	}
+}

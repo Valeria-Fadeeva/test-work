@@ -1,0 +1,44 @@
+.center {
+	text-align: center;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.middle {
+	vertical-align: middle;
+}
+
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+.pleft {
+	position: absolute;
+	left: 0px;
+}
+
+.pright {
+	position: absolute;
+	right: 0px;
+}
+
+.vgcenter {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+}

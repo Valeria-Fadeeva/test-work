@@ -1,0 +1,48 @@
+.footer {
+	background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+	border: 1px solid var(--main-border-color);
+    height: 8rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	font-size: 0.8rem;
+	line-height: 1rem;	
+}
+
+.scroll-panel {
+	display: none;
+}
+
+/* Small devices (landscape phones, 34em and up)*/
+@media (min-width: 34em) {
+	.scroll-panel {
+		display: none;
+	}
+}
+
+/* Medium devices (tablets, 48em and up)*/
+@media (min-width: 48em) {
+	.scroll-panel {
+		display: none;
+	}
+}
+
+/* Large devices (desktops, 62em and up)*/
+@media (min-width: 62em) {
+	.scroll-panel {
+		display: block;
+		position: fixed; 
+		right: 4rem; 
+		bottom: 2rem; 
+	}
+}
+
+/* Extra large devices (large desktops, 75em and up)*/
+@media (min-width: 75em) {
+	.scroll-panel {
+		display: block;
+		position: fixed; 
+		right: 4rem; 
+		bottom: 2rem; 
+	}
+}

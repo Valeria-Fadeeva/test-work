@@ -1,0 +1,11 @@
+.accordion-button {
+	background-color: var(--main-bg-color);
+	color: var(--main-text-color);
+}
+
+.accordion-body {
+	background-color: var(--main-bg-color);
+	color: var(--main-text-color);
+    overflow-y: auto;
+    height: 10rem;
+}
